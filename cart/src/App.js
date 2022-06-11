@@ -5,6 +5,7 @@ import ShoppingCart from "./ShoppingCart";
 import Hello from "./Hello";
 
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Hello2 from "./Hello2";
 
 
 const url = "https://gunter-food-api.herokuapp.com/pizza";
@@ -60,6 +61,7 @@ function App() {
         </Router>
       </div>
    <Hello/>
+   <Hello2/>
     </>
  
   );
