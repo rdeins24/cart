@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+.description-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 33.333333% ;
+  /* background-color: black; */
+  display:inline-flex;
+  /* border:3px solid black; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin-bottom: 1.5rem; */
+  margin: 20px;
+}
+.description{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  padding: 1px 9px;
+ 
+  
+}
+.bag{
+  background-color: #f1f5f8;
+  display: flex;
+  margin: 20px;
+  border: 2px solid grey;
+  margin: 5px;
+
+}
+
+.bag-image{
+  width: 100px;
+  height: 100px;
+
+}
+.bag-description{
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-content: center;
+  align-items: center;
+ margin-left: 20px;
+  
+}
+
+.btn-desc{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.bag-price{
+  margin-left: 50px;
+  color: grey;
+  font-weight: bold;
+}
+.bag-value{
+  margin: 5px;
+  margin-left: 15px;
+}
+.bag-btn{
+  display: flex;
+  flex-direction: row;
+justify-content: center;  
+align-items: center;
+margin-left: 100px;
+}
+.remove-btn{
+  margin-left: 270px;
+color: brown;
+}
+.nav-bar{
+  position: relative;
+ color:deepskyblue;
+ font-size: 50px;
+ left: 1330px;
+ width: 50px;
+ display: block;
+ position: relative;
+}
+.amount-container{
+  /* position: absolute;
+  background-color: blue;
+   margin-top: 10px; 
+   margin-left: 100px; 
+  right: 1rem;
+  font-size: 50px; */
+font-size: 20px;
+  position: absolute;
+  top: -0.30rem;
+  right: -0.85rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--clr-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-weight:900;
+}
+/* .container {
+  position: relative;
+}
+.bag-container{
+  position: absolute;
+  width: 1000px;
+  display: flex;
+  margin-top: -50px;
+  flex-direction: column;
+} */
